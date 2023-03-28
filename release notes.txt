@@ -1,0 +1,10 @@
+v2.7 (15 jun 2022) trying another netchecker
+v2.6 (15 mar 2022) new netchecker
+v2.5 (17 sep 2021) added check for internet connection and minor updates
+v2.4 (06 sep 2021) added time update
+v2.3 bug fixes
+v2.2 added reboot if either max loop hit or driver requires it.
+v2.1 added loop count + max loop set at 7. bug fix.
+v2.0 added loop
+v1.1 daniel deleted a line to make it work again.
+v1.0 released.
