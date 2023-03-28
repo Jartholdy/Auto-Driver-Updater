@@ -1,0 +1,1 @@
+powershell.exe -noprofile -ExecutionPolicy Unrestricted -command "&{start-process powershell -ArgumentList '-ExecutionPolicy Unrestricted -noprofile -file ""%~dp0Auto Driver Updater.ps1""' -verb RunAs}
