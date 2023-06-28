@@ -1,7 +1,7 @@
 #set Window Title
 Set-TimeZone -Id "Romance Standard Time"
 Start-Sleep -Seconds 1
-$host.ui.RawUI.WindowTitle = "Auto Driver Updater v3.0 (20 jun 2023) for Foxway A/S by Johny Bartholdy Jensen " + (Get-Date).ToString("\[HH\:mm\]")
+$host.ui.RawUI.WindowTitle = "Auto Driver Updater v3.0 (20 jun 2023) for Foxway A/S by Johny Bartholdy Jensen [$(Get-Date -Format 'HH:mm')]"
 $monitor = Get-WmiObject -ns root/wmi -class wmiMonitorBrightNessMethods -EA SilentlyContinue
 if ($monitor) {$monitor.WmiSetBrightness(1,100)}
 Clear-Host
